@@ -4,6 +4,7 @@
 }
 
 body{
+    background-color: #f6f5f5;
     padding: 0px;
     margin: 0px;
     font-family: poppins;
@@ -33,7 +34,7 @@ nav {
     top: 0;
     width:100%;
     z-index: 1;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
 .logo img {
     height: 45px;
@@ -49,10 +50,10 @@ nav ul li a {
     margin:3px;
     padding: 0 22px;
     display: flex;
-    font-size: 0.8rem;
+    font-size: 1.rem;
     text-transform: uppercase;
-    font-weight: 500;
-    color: #585b5b;
+    font-weight:700;
+    color: #505050;
     letter-spacing: 1px;
 
 }
@@ -67,6 +68,11 @@ nav ul li a:hover {
     color: #ffffff;
     box-shadow: 5px 10px 30px rgb(64, 198, 196, 0.3);
     transition: all ease 0.2s;
+}
+nav h1 {
+    font-size: 2.3rem;
+    color: #1c3548;
+    margin:0px 0px 10px 0px;
 }
 .model img {
     width: 100%;
@@ -177,12 +183,12 @@ nav ul li a:hover {
 .s-box-text strong {
     color: #1c3548;
     margin:0px;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 .s-box-text p {
     color: #747474;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 
 }
 .fa-html5 {
@@ -211,9 +217,10 @@ nav ul li a:hover {
     letter-spacing: 2px;
     font-size: 1.1rem;
 }
-.recent-heading h3 .client-heading h3, #contact h3{
+.recent-heading h3 , .client-heading h3, #contact h3{
     color: #1c3548;
     font-size: 3rem;
+
     margin:0px;
     font-weight: 400;
     letter-spacing:1px;
@@ -238,7 +245,6 @@ nav ul li a:hover {
     border-top: 1px solid rgba(58,58,58,0.03);
     border-bottom: 1px solid rgba(58,58,58,0.03);
     padding: 50px 0px;
-   
     background-position: center;
     background-size: 1000px;
 }
@@ -248,6 +254,7 @@ nav ul li a:hover {
     align-items: center;
     flex-direction: column;
 }
+
 .c-box-container{
     display: flex;
     justify-content:center;
@@ -473,6 +480,9 @@ nav .menu-btn{
         width: 400px;
         height: 400px;
     }
+    nav h1 {
+        font-size:1.9rem; 
+    }
     .main-text , .model {
         margin:10px;
     }
@@ -480,6 +490,10 @@ nav .menu-btn{
         font-size:3.5rem;
 
     }
+    .skill-test h2 {
+        font-size:3.5rem;
+    }
+
     .skill-img {
         width: 400px;
         height: 400px;
@@ -587,6 +601,12 @@ nav .menu-btn{
 
 
     }
+    nav h1 {
+        font-size:1.8rem; 
+    }
+    .skill-test h2 {
+        font-size:3.0rem;
+    }
     #skills {
         width: 400px;
     }
@@ -615,6 +635,9 @@ nav .menu-btn{
 @media(max-width:720px) {
     .model {
         display:none;
+    }
+    nav h1 {
+        font-size:1.6rem; 
     }
     main-text {
         width: 70%;
@@ -645,6 +668,12 @@ nav .menu-btn{
 
 }
 @media(max-width:530px){
+    nav h1 {
+        font-size:1.4rem; 
+    }
+    .skills-heading h2 {
+        font-size: 30px;
+    }
     .contact-input {
         width: 90%;
 
